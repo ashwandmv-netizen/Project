@@ -39,3 +39,26 @@ nav ul li a {
 
 .features {
     display: flex;
+    justify-content: center;
+
+    padding: 30px;
+}
+
+.box {
+    background: lightgrey;
+    box-shadow: 5px 5px 20px black ;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #ddd;
+}
+.box:hover {
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+  transform: translateY(-5px); 
+}
+footer {
+    text-align: center;
+    background: teal;
+    color: white;
+    padding: 10px;
+}
